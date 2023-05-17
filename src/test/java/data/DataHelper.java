@@ -1,8 +1,8 @@
 package data;
 
-import java.util.Random;
-
 import lombok.Value;
+
+import java.util.Random;
 
 public class DataHelper {
 
@@ -49,6 +49,7 @@ public class DataHelper {
     public static int generateInvalidAmount(int balance) {
         return Math.abs(balance) + new Random().nextInt(10000);
     }
+}
 
 
 

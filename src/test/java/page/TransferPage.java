@@ -21,17 +21,18 @@ public class TransferPage {
         transferHead.shouldBe(visible);
     }
 
-    public DashboardPage makeValidTransfer(String amountToTansfer, DataHelper.CardInfo cardInfo) {
-        makeTransfer(amountToTansfer, cardInfo);
+    public DashboardPage makeValidTransfer(String amountToTransfer, DataHelper.CardInfo cardInfo) {
+        makeTransfer(amountToTransfer, cardInfo);
+        return new DashboardPage();
     }
 
-    private void makeTransfer(String amountToTansfer, DataHelper.CardInfo cardInfo) {
-        amountInput.setValue(amountToTansfer);
+    private void makeTransfer(String amountToTransfer, DataHelper.CardInfo cardInfo) {
+        amountInput.setValue(amountToTransfer);
         fromInput.setValue(cardInfo.getCardNumber());
         transferButton.click();
     }
 
-    public void findErrorMessage(String expestedText) {
-        errorMessage.shouldHave(exactText(expestedText), Duration.ofSeconds(15)).shouldBe(visible);
+    public void findErrorMessage(String expectedText) {
+        errorMessage.shouldHave(exactText(expectedText), Duration.ofSeconds(15)).shouldBe(visible);
     }
 }
