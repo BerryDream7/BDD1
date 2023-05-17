@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="test.MoneyTransferTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-17T12:29:57" hostname="WIN-6P599NEISBT" time="6.596">
+<testsuite name="test.MoneyTransferTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-17T13:15:30" hostname="WIN-6P599NEISBT" time="7.14">
   <properties/>
-  <testcase name="shouldTransferFromFirstToSecond()" classname="test.MoneyTransferTest" time="6.596"/>
+  <testcase name="shouldTransferFromFirstToSecond()" classname="test.MoneyTransferTest" time="7.14"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
@@ -9,11 +9,11 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
 SLF4J: Ignoring binding found at [jar:file:/C:/Users/user/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.32/321ffafb5123a91a71737dbff38ebe273e771e5b/slf4j-simple-1.7.32.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 31301
+Starting ChromeDriver 113.0.5672.63 (0e1a4471d5ae5bf128b1bd8f4d627c8cbd55f70c-refs/branch-heads/5672@{#912}) on port 25755
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-мая 17, 2023 3:30:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мая 17, 2023 4:15:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 113, so returning the closest version found: 110
 ]]></system-err>
 </testsuite>
